@@ -1,0 +1,11 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.example-card {
+    // width: clamp(300px, 33.33% - 1rem, 400px);
+    width: clamp(250px, 30.0%, 400px);
+    margin: 1rem;
+}

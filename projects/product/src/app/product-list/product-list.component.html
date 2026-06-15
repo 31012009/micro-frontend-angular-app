@@ -1,0 +1,26 @@
+<!-- <h3>product-list works!</h3> -->
+
+<main class="container">
+
+    <!-- {{posts$ | async | json}} -->
+    @if (posts$ | async; as posts) {
+
+    @for (post of posts; track post.id) {
+    <mat-card class="example-card" appearance="outlined">
+        <mat-card-header>
+            <mat-card-title>{{ post.title }}</mat-card-title>
+        </mat-card-header>
+        <img mat-card-image [src]="getImage('products/product-image.jpg')" alt="Photo">
+        <mat-card-content>
+            <p>{{ post.body }}</p>
+        </mat-card-content>
+    </mat-card>
+
+    }
+
+    } @else {
+    <p>Loading...</p>
+    }
+
+
+</main>
