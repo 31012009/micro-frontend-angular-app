@@ -6,7 +6,7 @@ module.exports = withModuleFederationPlugin({
     // "product": "http://localhost:4201/remoteEntry.js",
     // "account": "http://localhost:4202/remoteEntry.js",
     "product": 'https://product-app.netlify.app/remoteEntry.js',
-    "account": 'https://account-app.netlify.app/remoteEntry.js'
+    "account": 'https://account-mfe-app.netlify.app/remoteEntry.js'
   },
 
   shared: {
