@@ -5,7 +5,7 @@
     "ng": "ng",
     "start": "ng serve",
     "build:shell": "ng build shell",
-    "build:product": "ng build product",
+    "build:product": "ng build product --configuration production",
     "build:account": "ng build account --configuration production",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
