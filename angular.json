@@ -224,7 +224,7 @@
         "build": {
           "builder": "ngx-build-plus:browser",
           "options": {
-            "outputPath": "dist/product",
+            "outputPath": "dist/shell",
             "index": "projects/product/src/index.html",
             "polyfills": [
               "zone.js"
