@@ -8,7 +8,7 @@ export const routes: Routes = [
         loadChildren: () =>
             loadRemoteModule({
                 type: 'module',
-                remoteEntry: 'http://localhost:4201/remoteEntry.js',
+                remoteEntry: 'https://product-mfe-app.netlify.app/remoteEntry.js',
                 exposedModule: './Routes'
                 // exposedModule: './Component'
             }).then(m => m.routes)
@@ -18,7 +18,7 @@ export const routes: Routes = [
         loadComponent: () =>
             loadRemoteModule({
                 type: 'module',
-                remoteEntry: 'http://localhost:4202/remoteEntry.js',
+                remoteEntry: 'https://account-mfe-app.netlify.app/remoteEntry.js',
                 exposedModule: './Component'
             }).then(m => m.AppComponent)
     },
