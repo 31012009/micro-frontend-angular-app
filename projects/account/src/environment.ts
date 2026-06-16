@@ -1,0 +1,1 @@
+const ANGULAR_PROJECT = "account"
