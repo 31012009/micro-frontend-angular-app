@@ -408,6 +408,7 @@
             "tsConfig": "projects/account/tsconfig.app.json",
             "inlineStyleLanguage": "scss",
             "assets": [
+              "projects/account/src/_headers",
               {
                 "glob": "**/*",
                 "input": "projects/account/public",
