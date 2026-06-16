@@ -1,1 +1,1 @@
-const ANGULAR_PROJECT_PRODUCT = "product"
+const ANGULAR_PRODUCT = "product"
